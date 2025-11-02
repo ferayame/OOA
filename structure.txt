@@ -1,16 +1,18 @@
-Heart-Disease-OOA-SVM/
+OOA/
 │
 ├── data/
 │   └── heart.csv
 │
 ├── src/
-│   ├── OOA-SVM.ipynb
-│   └── OOA-SVM_model.pkl          
+│   ├── OOA-KNN.ipynb         
 │
 ├── results/
-│   ├── convergence_curve.png
-│   ├── confusion_matrix.png
+│   ├── cm_KNN_Scaled.png
+│   ├── cm_KNN_Unscaled.png
+│   ├── cm_ooa_knn.png
+│   ├── correlation_matrix.png
+│   ├── ooa_convergence.png
 │   └── performance_comparison.png
 │
 ├── README.md
-└── requirements.txt
+└── structure.txt
