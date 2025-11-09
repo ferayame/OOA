@@ -1,0 +1,18 @@
+OOA/
+│
+├── data/
+│   └── heart.csv
+│
+├── src/
+│   ├── OOA-KNN.ipynb         
+│
+├── results/
+│   ├── cm_KNN_Scaled.png
+│   ├── cm_KNN_Unscaled.png
+│   ├── cm_ooa_knn.png
+│   ├── correlation_matrix.png
+│   ├── ooa_convergence.png
+│   └── performance_comparison.png
+│
+├── README.md
+└── structure.txt
