@@ -1,2 +1,2 @@
 for 100 iteration: 6 min 23 s
-for 80 iter: 
+for 80 iter: 4 min 58 s
