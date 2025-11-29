@@ -1,2 +1,4 @@
 Time for finding best parameters: 1297.3163
 Accuracy: 0.0935
+Time for finding best parameters: 1360.3004
+Accuracy: 0.0935
