@@ -8,7 +8,29 @@
 * Compare OOA optimization with the IFOX algorithm.
 * Visualize fitness convergence, evaluation metrics, and confusion matrices.
 
-## StructureOOA/
+## Structure
+
+```
+OOA/
+│
+├── data/
+│   └── Heart_Disease.csv
+│
+├── models/
+│   ├── ooa_knn_model.joblib
+├── results/
+│   ├── cm_KNN_Unscaled.png
+│   ├── cm_KNN_Scaled.png
+│   ├── cm_ooa_knn.png
+│   ├── fitness_evaluation.png
+│   └── performance_comparison.png
+│
+├── src/
+│   ├── OOA-KNN.ipynb
+│   └── data_analysis.ipynb
+│
+└── README.md
+```
 
 ## Algorithms
 
