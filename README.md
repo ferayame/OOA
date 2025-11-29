@@ -1,6 +1,5 @@
 # KNN hyperparameter tuning using Octopus Optimization Algorithm (OOA)
 
-
 ## **Objectives**
 
 * Demonstrate the effectiveness of the Octopus Optimization Algorithm (OOA) in tuning KNN hyperparameters.
@@ -9,29 +8,7 @@
 * Compare OOA optimization with the IFOX algorithm.
 * Visualize fitness convergence, evaluation metrics, and confusion matrices.
 
-
-## Structure
-
-OOA/
-│
-├── data/
-│   └── Heart_Disease.csv
-│
-├── models/
-│   ├── ooa_knn_model.joblib│
-├── results/
-│   ├── cm_KNN_Unscaled.png
-│   ├── cm_KNN_Scaled.png
-│   ├── cm_ooa_knn.png
-│   ├── fitness_evaluation.png
-│   └── performance_comparison.png
-│
-├── src/
-│   ├── OOA-KNN.ipynb
-│
-├── README.md
-└── requirements.txt
-
+## StructureOOA/
 
 ## Algorithms
 
