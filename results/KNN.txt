@@ -938,3 +938,43 @@ MSE = 0.0756
 AUC = 0.9251
 
 --------------------------
+Running number: 10
+SCALED
+Optimizer: OOA
+n_neighbors: 13, p: 1.00, metric: manhattan, weights: distance
+--------------------------
+Training Time: 11.93 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 10
+SCALED
+Optimizer: IFOX
+n_neighbors: 18, p: 1.94, metric: manhattan, weights: distance
+--------------------------
+Training Time: 6.78 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.96      0.94       112
+           1       0.96      0.93      0.94       126
+
+    accuracy                           0.94       238
+   macro avg       0.94      0.94      0.94       238
+weighted avg       0.94      0.94      0.94       238
+
+MSE = 0.0588
+AUC = 0.9420
+
+--------------------------
