@@ -194,3 +194,747 @@ MSE = 0.0588
 AUC = 0.9415
 
 --------------------------
+Running number: 3
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 3
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 3
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 1.28 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 3
+SCALED
+Optimizer: OOA
+n_neighbors: 15, p: 2.85, metric: manhattan, weights: distance
+--------------------------
+Training Time: 7.91 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 3
+SCALED
+Optimizer: IFOX
+n_neighbors: 13, p: 2.82, metric: manhattan, weights: distance
+--------------------------
+Training Time: 4.12 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 4
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 4
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 4
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 54.80 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 4
+SCALED
+Optimizer: OOA
+n_neighbors: 7, p: 1.97, metric: manhattan, weights: distance
+--------------------------
+Training Time: 7.42 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.93      0.92       112
+           1       0.93      0.91      0.92       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.92      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0798
+AUC = 0.9206
+
+--------------------------
+Running number: 4
+SCALED
+Optimizer: IFOX
+n_neighbors: 13, p: 2.64, metric: manhattan, weights: distance
+--------------------------
+Training Time: 3.87 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 5
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 5
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 5
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 54.53 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 5
+SCALED
+Optimizer: OOA
+n_neighbors: 13, p: 2.22, metric: manhattan, weights: distance
+--------------------------
+Training Time: 7.89 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 5
+SCALED
+Optimizer: IFOX
+n_neighbors: 9, p: 1.82, metric: manhattan, weights: distance
+--------------------------
+Training Time: 4.76 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94       112
+           1       0.95      0.94      0.95       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0546
+AUC = 0.9454
+
+--------------------------
+Running number: 6
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 6
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 6
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 53.75 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 6
+SCALED
+Optimizer: OOA
+n_neighbors: 13, p: 2.99, metric: manhattan, weights: distance
+--------------------------
+Training Time: 8.38 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 6
+SCALED
+Optimizer: IFOX
+n_neighbors: 9, p: 1.00, metric: manhattan, weights: distance
+--------------------------
+Training Time: 5.80 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94       112
+           1       0.95      0.94      0.95       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0546
+AUC = 0.9454
+
+--------------------------
+Running number: 7
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 7
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 7
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 55.24 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 7
+SCALED
+Optimizer: OOA
+n_neighbors: 14, p: 2.81, metric: manhattan, weights: distance
+--------------------------
+Training Time: 8.52 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94       112
+           1       0.95      0.94      0.94       126
+
+    accuracy                           0.94       238
+   macro avg       0.94      0.94      0.94       238
+weighted avg       0.94      0.94      0.94       238
+
+MSE = 0.0588
+AUC = 0.9415
+
+--------------------------
+Running number: 7
+SCALED
+Optimizer: IFOX
+n_neighbors: 9, p: 2.45, metric: manhattan, weights: distance
+--------------------------
+Training Time: 5.66 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94       112
+           1       0.95      0.94      0.95       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0546
+AUC = 0.9454
+
+--------------------------
+Running number: 8
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 8
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 8
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 54.86 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 8
+SCALED
+Optimizer: OOA
+n_neighbors: 13, p: 0.85, metric: manhattan, weights: distance
+--------------------------
+Training Time: 15.05 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 8
+SCALED
+Optimizer: IFOX
+n_neighbors: 13, p: 2.60, metric: manhattan, weights: distance
+--------------------------
+Training Time: 4.17 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 9
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 9
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 9
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 56.90 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
+Running number: 9
+SCALED
+Optimizer: OOA
+n_neighbors: 13, p: 2.47, metric: manhattan, weights: distance
+--------------------------
+Training Time: 10.61 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       112
+           1       0.96      0.95      0.96       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0462
+AUC = 0.9539
+
+--------------------------
+Running number: 9
+SCALED
+Optimizer: IFOX
+n_neighbors: 9, p: 2.26, metric: manhattan, weights: distance
+--------------------------
+Training Time: 6.43 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94       112
+           1       0.95      0.94      0.95       126
+
+    accuracy                           0.95       238
+   macro avg       0.95      0.95      0.95       238
+weighted avg       0.95      0.95      0.95       238
+
+MSE = 0.0546
+AUC = 0.9454
+
+--------------------------
+Running number: 10
+NOT SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.64      0.67       112
+           1       0.70      0.75      0.73       126
+
+    accuracy                           0.70       238
+   macro avg       0.70      0.70      0.70       238
+weighted avg       0.70      0.70      0.70       238
+
+MSE = 0.2983
+AUC = 0.6984
+
+--------------------------
+Running number: 10
+SCALED
+default
+--------------------------
+Training Time: 0.00 s 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.79      0.82       112
+           1       0.83      0.87      0.85       126
+
+    accuracy                           0.84       238
+   macro avg       0.84      0.83      0.83       238
+weighted avg       0.84      0.84      0.84       238
+
+MSE = 0.1639
+AUC = 0.8338
+
+--------------------------
+Running number: 10
+SCALED
+Optimizer: Grid Search
+{'metric': 'hamming', 'n_neighbors': 30, 'p': 1, 'weights': 'distance'}
+--------------------------
+Training Time: 1.71 min 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.94      0.92       112
+           1       0.94      0.91      0.93       126
+
+    accuracy                           0.92       238
+   macro avg       0.92      0.93      0.92       238
+weighted avg       0.92      0.92      0.92       238
+
+MSE = 0.0756
+AUC = 0.9251
+
+--------------------------
