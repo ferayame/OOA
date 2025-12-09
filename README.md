@@ -20,11 +20,6 @@ OOA/
 ├── models/
 │   ├── ooa_knn_model.joblib
 ├── results/
-│   ├── cm_KNN_Unscaled.png
-│   ├── cm_KNN_Scaled.png
-│   ├── cm_ooa_knn.png
-│   ├── fitness_evaluation.png
-│   └── performance_comparison.png
 │
 ├── src/
 │   ├── OOA-KNN.ipynb
